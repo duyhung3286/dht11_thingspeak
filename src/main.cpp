@@ -6,7 +6,7 @@
 #include <WiFi.h>
 
 #define DHTTYPE DHT11
-#define DHTPIN 4
+#define DHTPIN 5
 DHT_Unified dht(DHTPIN,DHTTYPE);
 
 WiFiClient wificlient;
